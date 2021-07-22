@@ -1,0 +1,240 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+    box-sizing: border-box;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+@font-face {
+    font-family: 'Apple_B';
+    src: url('./fonts/AppleSDGothicNeoB.ttf');
+}
+
+@font-face {
+    font-family: 'Apple_EB';
+    src: url('./fonts/AppleSDGothicNeoEB.ttf');
+}
+
+@font-face {
+    font-family: 'Apple_H';
+    src: url('./fonts/AppleSDGothicNeoH.ttf');
+}
+
+@font-face {
+    font-family: 'Apple_L';
+    src: url('./fonts/AppleSDGothicNeoL.ttf');
+}
+
+@font-face {
+    font-family: 'Apple_M';
+    src: url('./fonts/AppleSDGothicNeoM.ttf');
+}
+
+@font-face {
+    font-family: 'Noto_BL';
+    src: url('./fonts/NotoSansCJKkr-Black.otf');
+}
+
+
+body {
+    /* max-width: 1920px; */
+}
+
+.heading_bar {
+    width: 100%;
+    min-width: 1920px;
+    height: 41px;
+    background-color: #f4f4f7;
+    line-height: 41px;
+}
+
+.heading_bar_contents {
+    vertical-align: middle;
+    height: 41px;
+    margin: 0 auto;
+    width: 1180px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.heading_bar_contents_chat {
+    width: 199px;
+    background-color: #e4e4eb;
+    text-align: center;
+    font-family: 'Apple_B';
+    cursor: pointer;
+}
+
+.heading_bar_contents_function {
+    font-family: 'Apple_L';
+}
+
+.heading_bar_contents_function div {
+    display: inline-block;
+    margin-right: 11px;
+    cursor: pointer;
+}
+
+.heading_bar_contents_function div:last-child {
+    margin-right: 0;
+}
+
+.menu {
+    width: 100%;
+    min-width: 1920px;
+    height: 98px;
+    line-height: 98px;
+    border-bottom:1px solid #c9c9c9;
+    margin-bottom: 17px;
+}
+
+.menu_contents {
+    vertical-align: middle;
+    height: 98px;
+    margin: 0 auto;
+    width: 1180px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.menu_contents_menu div {
+    cursor: pointer;
+    font-family: 'Apple_B';
+    font-size: 18px;
+    letter-spacing: -0.9px;
+    display: inline-block;
+    margin-right: 40px;
+}
+
+.menu_contents_menu div:last-child {
+    margin-right: 0;
+}
+
+.visual {
+    width: 100%;
+    background-color: #ebf3ff;
+}
+
+.visual_image {
+    width: 1920px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.visual_image_text {
+    width: 1180px;
+    margin: 0 auto;
+}
+
+
+.visual_image_text_box {
+    position: absolute;
+    top: 50%;
+    transform: translate(0, -50%);
+    /* border-left: 1px solid #bac0c8; */
+    
+}
+
+.visual_image_text_box_1 {
+    border-left: 2px solid black;
+    padding-left: 32px;
+}
+
+.visual_image_text_box div:first-child div:first-child {
+    font-family: 'Apple_B';
+    font-size: 27px;
+    letter-spacing: -1.35px;
+    margin-bottom: 16px;
+    color: #634d9d;
+}
+
+.visual_image_text_box div:first-child div:nth-child(2) {
+    font-family :'Apple_L';
+    font-size: 27px;
+    letter-spacing: -1.35px;
+    color: #634d9d;
+}
+
+.visual_image_text_box_2
+{
+    border-left: 1px solid #bac0c8;
+    padding-top: 32px;
+    padding-left: 49px;
+}
+
+.visual_image_text_box div:nth-child(2) div:nth-child(1){
+    font-family: 'Apple_B';
+    font-size: 55.5px;
+    letter-spacing: -.1.39px;
+    color: #634d9d;
+    margin-bottom: 37px;
+    text-shadow: 0px 1px 1px rgba(38, 32, 51, 0.46);
+}
+
+.visual_image_text_box div:nth-child(2) div:nth-child(2) {
+    font-family: 'Apple_B';
+    font-size: 22px;
+    letter-spacing: -0.55px;
+    color: rgba(67, 186, 166, 0.9);
+    margin-bottom: 47px;
+}
+
+.visual_image_text_box div:nth-child(2) div:nth-child(3) {
+    font-size: 14.5px;
+    color: #43baa6;
+    font-family: 'Noto_BL';
+    padding: 18px 40px;
+    border: 1px solid #43baa6;
+    display: inline-block;
+    cursor: pointer;
+}
+
+.visual_honor {
+    background-color: #232327;
+}
+
+.visual_honor_contents{
+    width: 1920px;
+    margin: 0 auto;
+}
+
+
+
