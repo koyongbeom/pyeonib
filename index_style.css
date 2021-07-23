@@ -234,6 +234,7 @@ body {
 
 .visual_honor {
     background-color: #232327;
+    height: 115px;
 }
 
 .visual_honor_contents{
@@ -527,6 +528,7 @@ body {
     text-align: center;
     line-height: 35px;
     margin-left: 80px;
+    cursor: pointer;
 }
 
 .layer:hover {
@@ -536,6 +538,7 @@ body {
 .layer:hover div:nth-child(4){
     background-color: #292929;
     color: #52bfad;
+    cursor: pointer;
 }
 
 .video {
@@ -639,6 +642,7 @@ body {
 }
 
 .left_chevron{
+    cursor: pointer;
     background-color: rgba(0, 0, 0, 0.6);
     z-index: 10;
     width: 42px;
@@ -650,6 +654,7 @@ body {
 }
 
 .right_chevron{
+    cursor: pointer;
     background-color: rgba(0, 0, 0, 0.6);
     z-index: 10;
     width: 42px;
@@ -665,8 +670,9 @@ body {
     font-size: 20px;
 }
 
-.slider img {
-    transform: translateX(-3600px);
+.sliderimage {
+    transition: 300ms;
+    /* transform: translateX(-3600px); */
 }
 
 
