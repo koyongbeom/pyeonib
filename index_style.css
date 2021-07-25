@@ -45,37 +45,42 @@ table {
 
 @font-face {
     font-family: 'Apple_B';
-    src: url('./fonts/AppleSDGothicNeoB.ttf');
+    src: url('./fonts/AppleSDGothicNeoBsmallwoff.woff');
 }
 
 @font-face {
     font-family: 'Apple_EB';
-    src: url('./fonts/AppleSDGothicNeoEB.ttf');
+    src: url('./fonts/AppleSDGothicNeoEBSmallwoff.woff');
 }
 
-@font-face {
+/* @font-face {
     font-family: 'Apple_H';
     src: url('./fonts/AppleSDGothicNeoH.ttf');
-}
+} */
 
 @font-face {
     font-family: 'Apple_L';
-    src: url('./fonts/AppleSDGothicNeoL.ttf');
+    src: url('./fonts/AppleSDGothicNeoLsmallwoff.woff');
 }
 
 @font-face {
     font-family: 'Apple_M';
-    src: url('./fonts/AppleSDGothicNeoM.ttf');
+    src: url('./fonts/AppleSDGothicNeoMSmallwoff.woff');
 }
+
+/* @font-face {
+    font-family: 'Noto_BL';
+    src: url('./fonts/NotoSansCJKkr-Black.otf');
+} */
 
 @font-face {
     font-family: 'Noto_BL';
-    src: url('./fonts/NotoSansCJKkr-Black.otf');
+    src: url('./fonts/notosanscjkr-black-small.otf');
 }
 
 @font-face {
     font-family: 'Apple_T';
-    src: url('./fonts/apple-sd-gothic-neo-thin.otf');
+    src: url('./fonts/AppleSDGothicNeoThinSmallwoff.woff');
 }
 
 
