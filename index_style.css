@@ -85,7 +85,7 @@ body {
 
 .heading_bar {
     width: 100%;
-    min-width: 1920px;
+    min-width: 1180px;
     height: 41px;
     background-color: #f4f4f7;
     line-height: 41px;
@@ -124,7 +124,7 @@ body {
 
 .menu {
     width: 100%;
-    min-width: 1920px;
+    min-width: 1180px;
     height: 98px;
     line-height: 98px;
     border-bottom:1px solid #c9c9c9;
@@ -159,7 +159,7 @@ body {
 }
 
 .visual_image {
-    width: 1920px;
+    width: 1180px;
     margin: 0 auto;
     position: relative;
 }
@@ -233,19 +233,21 @@ body {
 }
 
 .visual_honor {
-    background-color: #232327;
+    background-color: #393941;
     height: 115px;
+    min-width: 1180px;
+    width: 100%;
 }
 
 .visual_honor_contents{
-    width: 1920px;
+    width: 1180px;
     margin: 0 auto;
 }
 
 .firstline {
     margin-top: 62px;
     width: 100%;
-    min-width: 1920px;
+    min-width: 1180px;
     margin-bottom: 67px;
 }
 
@@ -384,6 +386,7 @@ body {
 }
 
 .btn_imo {
+    margin-left: 10px;
     width: 70px;
     height: 70px;
     border: 1px solid rgba(255, 255, 255, 0.3);
@@ -401,26 +404,26 @@ body {
 }
 
 .btn_text1 {
-    margin-left: 5px;
-    margin-bottom: 20px;
-}
-
-.btn_text2 {
     margin-left: 15px;
     margin-bottom: 20px;
 }
 
+.btn_text2 {
+    margin-left: 25px;
+    margin-bottom: 20px;
+}
+
 .btn_text3 {
-    margin-left: 12px;
+    margin-left: 22px;
 }
 
 .btn_text4 {
-    margin-left: 21px;
+    margin-left: 31px;
 }
 
 .center {
     width: 100%;
-    min-width: 1920px;
+    min-width: 1180px;
     background-color: #f7f6f5;
     padding-bottom: 79px;
 }
@@ -543,7 +546,7 @@ body {
 
 .video {
     width: 100%;
-    min-width: 1920px;
+    min-width: 1180px;
     background-color: #71d8e9;
 }
 
@@ -580,7 +583,7 @@ body {
 
 .photos {
     width: 100%;
-    min-width: 1920px;
+    min-width: 1180px;
     margin: 0 auto;
 }
 
@@ -614,7 +617,7 @@ body {
 .slider{
     position: relative;
     overflow: hidden;
-    width: 1920px;
+    width: 100%;
     display: flex;
     flex-wrap: nowrap;
     align-items: baseline;
@@ -673,6 +676,21 @@ body {
 .sliderimage {
     transition: 300ms;
     /* transform: translateX(-3600px); */
+}
+
+
+.footer {
+    min-width: 180px;
+    margin-top: 83px;
+    border-top: 1px solid #d7d7d7;
+    background-color: #f0f0f0;
+}
+
+.footer_contents {
+    margin-top: 25px;
+    background-color: #f0f0f0;
+    width: 1180px;
+    height: 208px;
 }
 
 

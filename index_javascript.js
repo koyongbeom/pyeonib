@@ -1,5 +1,6 @@
 
-var position = -10800;
+// var position = -10800;
+var position = 0;
 console.log(position);
 
 
